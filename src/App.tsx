@@ -1,26 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import catnapLogo from './catnap.svg';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="bg-primary h-full w-full flex flex-col items-center justify-center">
+            <div className="w-20 mb-4">
+                <img src={catnapLogo} />
+            </div>
+            <h1 className="font-display text-5xl text-white">Cat Nap</h1>
+        </div>
+    );
 }
 
 export default App;
